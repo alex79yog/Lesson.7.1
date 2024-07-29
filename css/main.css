@@ -1,0 +1,13 @@
+body {
+    background-color:beige;
+    border: 0.1rem solid rgb(212, 242, 245);
+    border-radius: 0.3rem;
+    box-shadow: 5px 2px 1px rgb(241, 233, 193);
+        padding: 0.4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    font-size: 1.2rem;
+
+}
