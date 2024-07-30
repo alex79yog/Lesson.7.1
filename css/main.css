@@ -9,5 +9,20 @@ body {
 
 .menu {
     font-size: 1.2rem;
+}
 
+.disp {
+    display: block;
+    border: 3px solid rgb(38, 116, 2);
+    border-radius: 15px 30px 50px 0px;
+    padding: 10px 30px;
+    margin: 2rem 5rem 6rem 3rem;
+}
+
+.float-inl {
+    display: inline;
+    border: 3px solid rgb(38, 116, 2);
+    border-radius: 15px 30px 50px 0px;
+    padding: 30px 10px;
+    margin: 2rem 5rem 6rem 3rem;
 }
