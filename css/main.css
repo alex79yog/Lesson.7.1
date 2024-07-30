@@ -58,21 +58,14 @@ body {
   background-color: red;
   width: 200px;
   height: 200px;
-  border: 5px double rgb(58, 163, 254);
   border-radius: 5px;
-  padding: 10px;
-  margin: 1rem;
 }
 
 .col {
   background-color: rgb(144, 119, 72);
   width: 150px;
   height: 150px;
-  overflow: scroll;
-  border: 3px solid rgb(71, 241, 116);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 1rem;
+
   position: relative;
   left: 10rem;
   top: 40rem;
@@ -82,8 +75,6 @@ body {
   background-color: rgb(251, 233, 181);
   height: 50rem;
   width: 30rem;
-  border: 3px solid rgb(241, 167, 71);
-  border-radius: 5px;
-  padding: 20px;
+
   position: absolute;
 }
