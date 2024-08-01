@@ -3,7 +3,7 @@ body {
   border: 0.1rem solid rgb(212, 242, 245);
   border-radius: 0.3rem;
   box-shadow: 5px 2px 1px rgb(241, 233, 193);
-  padding: 0.4rem;
+  padding: 1rem 1rem 3rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -54,27 +54,38 @@ body {
   overflow: scroll;
 }
 
+/*position v.1*/
+
 .wrapper {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-}
-
-.col {
-  background-color: rgb(144, 119, 72);
-  width: 150px;
-  height: 150px;
-
+  background-color: #029EFF;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
   position: relative;
-  left: 10rem;
-  top: 40rem;
+  overflow: auto;
 }
 
-.conteiner {
-  background-color: rgb(251, 233, 181);
-  height: 50rem;
-  width: 30rem;
-
-  position: absolute;
+.first-block {
+  background-color: #6de875;
+  position: sticky;
+  top: 20px;
 }
+
+.second-block {
+  background-color: #fe8174;
+}
+
+.third-block {
+  background-color: #ff88eb;
+}
+
+/*position v.2/
+
+
+        .block__1
+
+        .block__2
+
+
+        .block__3
+
